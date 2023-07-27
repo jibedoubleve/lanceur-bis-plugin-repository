@@ -1,3 +1,3 @@
 # Insert here the plugins
 
-This should be named `<plugin_name>-<version>.lpk`
+This should be named `<plugin_name>_<version>.lpk`
