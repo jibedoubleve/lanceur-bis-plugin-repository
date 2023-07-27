@@ -13,6 +13,7 @@ Here you can find all official plugins for Lanceur 2
 ### What to add in `toc.json`
 ```json
 {
+    "name": "<name_of_plugin>",
     "description": "<small_description_of_the_plugin>",
     "url": "<relative_url_to_the_package_lpk>",
     "version": "<x.x.x>"
