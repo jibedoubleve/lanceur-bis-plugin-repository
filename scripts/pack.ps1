@@ -14,7 +14,7 @@ Set-Location $output
 Write-Host "`t=> Clean useless files"
 Remove-Item *.deps.json
 Remove-Item *.pdb
-Remove-Item *Lanceur.Plugin.Debug.dll
+Remove-Item *Lanceur.Core.Plugins.dll
 Remove-Item *.runtimeconfig.json
 Remove-Item *.lpk
 
@@ -24,6 +24,6 @@ $zip      = Join-Path -Path $output -ChildPath $fileName
 Compress-Archive -Path *.* -DestinationPath "$zip.zip"
 
 Write-Host "`t=> Change extension from '.zip' to '.lpk'"
-Rename-Item "$fileName.zip" -NewName "$fileName.lpk"
+Rename-Item "$fileName.zip" -NewName "$fileName`.lpk"
 
 Pop-Location
