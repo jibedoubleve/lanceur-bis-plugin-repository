@@ -16,7 +16,6 @@ Remove-Item *.deps.json
 Remove-Item *.pdb
 Remove-Item *Lanceur.Core.Plugins.dll
 Remove-Item *.runtimeconfig.json
-Remove-Item *.lpk
 
 Write-Host "`t=> Zip plugin"
 $fileName = $name + "_" + $version

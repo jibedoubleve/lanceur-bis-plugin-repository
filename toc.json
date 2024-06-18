@@ -4,6 +4,12 @@
         "description": "Small plugin used for development.",
         "dll": "/debug/Lanceur.Plugin.Debug.dll",
         "url": "Lanceur.Plugin.Debug_1.0.0.lpk",
-        "version": "1.0.0"
+    	"version": "1.0.0"
+    },
+    {
+   		"name": "Everything plugin",
+   	    "description": "This plugin uses voidtools Everything to find files in your disk.",
+	    "dll": "/everything/Lanceur.Plugin.Everything.dll",
+  	    "version": "1.0.0"
     }
 ]
