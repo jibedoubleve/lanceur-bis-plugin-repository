@@ -7,9 +7,10 @@
     	"version": "1.0.0"
     },
     {
-   		"name": "Everything plugin",
-   	    "description": "This plugin uses voidtools Everything to find files in your disk.",
-	    "dll": "/everything/Lanceur.Plugin.Everything.dll",
-  	    "version": "1.0.0"
+	"name": "Everything plugin",
+    	"description": "This plugin uses voidtools Everything to find files in your disk.",
+    	"dll": "/everything/Lanceur.Plugin.Everything.dll",	    
+	"url": "Lanceur.Plugin.Everything_1.0.0.lpk",
+    	"version": "1.0.0"
     }
 ]
